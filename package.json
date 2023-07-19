@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "watch:sass": "sass -w sass/main.scss css/style.css",
-    "devserver": "live-server --browser=firefox",
+    "devserver": "live-server --browser=chrome",
     "start": "run-p devserver watch:sass",
     "compile:sass": "sass sass/main.scss css/style.comp.css",
     "prefix:css": "npx postcss-cli --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
